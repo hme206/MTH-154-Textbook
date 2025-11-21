@@ -1,0 +1,38 @@
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My HTML Lessons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 0 20px;
+      background-color: #f8f8f8;
+    }
+    h1 { text-align: center; color: #33ab2b; }
+    ul { list-style-type: none; padding: 0; }
+    li { margin: 10px 0; }
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: 1.2em;
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    a:hover { background-color: #33ab2b; color: white; }
+  </style>
+</head>
+<body>
+  <h1>My HTML Lessons</h1>
+  <ul>
+    <li><a href="lesson1.html">Lesson 1</a></li>
+    <li><a href="lesson2.html">Lesson 2</a></li>
+    <li><a href="lesson3.html">Lesson 3</a></li>
+    <!-- Add more links as needed -->
+  </ul>
+</body>
+</html>
